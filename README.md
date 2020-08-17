@@ -6,3 +6,4 @@ This API is built using Django Rest Framework (DRF) and it's based on Django Pol
 * Generic views
 * Testing
 * Access control
+ 
