@@ -1,6 +1,6 @@
 from django.urls import path
 
-from .views import (polls_list, polls_detail)
+# from .views import (polls_list, polls_detail)
 from .apiviews import (PollList, PollDetail, ChoiceList, CreateVote)
 
 

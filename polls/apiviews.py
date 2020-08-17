@@ -19,6 +19,7 @@ from .serializers import (PollSerializer, ChoiceSerializer, VoteSerializer)
 #         data = PollSerializer(poll).data
 #         return Response(data)
 
+
 class PollList(generics.ListCreateAPIView):
     queryset = Poll.objects.all()
     serializer_class = PollSerializer
